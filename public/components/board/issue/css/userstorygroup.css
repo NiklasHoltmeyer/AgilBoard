@@ -1,0 +1,38 @@
+.userstorygroup {
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.userStory {
+    margin: 10px;
+}
+
+.icons>i {
+    padding-left: 8px;
+}
+
+.usgHeader {
+    padding-bottom: 40px;
+    padding-top: 15px;
+    height: 50px;
+}
+
+.usgfooter {
+    height: 5px;
+    /* margin auf der letzten userstory aendert nichts, hier ne komische lösung  */
+}
+
+.card-panel {
+    margin-top: 1px !important;
+}
+
+.usgContentWrapper {
+    overflow: auto;
+    height: calc(100vh - 68px);
+    /* 64 header + padding ~ 80px*/
+    /*     height: 68px; */
+}
+
+.usgContent {
+    overflow: auto;
+}

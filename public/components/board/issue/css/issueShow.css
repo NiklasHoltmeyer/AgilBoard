@@ -1,0 +1,73 @@
+.chatMessageContent {
+    padding: 16px !important;
+}
+
+.footer {
+    height: 15px;
+    /* margin auf der letzten userstory aendert nichts, hier ne komische lösung  */
+}
+
+.sideBarIcon {
+    margin-right: 8px !important;
+}
+
+.issueShowIcon {
+    padding: 16px;
+}
+
+.descrptionWrapper,
+.commentWrapper {
+    word-wrap: break-word;
+}
+
+.descrptionWrapper ul li,
+.commentWrapper ul li {
+    list-style: initial !important;
+    list-style-position: inside;
+    margin-left: 50px;
+}
+
+.datepicker {
+    z-index: 1551 !important;
+}
+
+.commentUserAvatar {
+    border-radius: 10%;
+    width: 50px;
+    height: 50px;
+}
+
+.commentCreatedAt {
+    padding-right: 34px;
+    padding-top: 8px;
+}
+
+.commentAutorInfo {
+    margin-top: 16px;
+}
+
+#issueInfoModal {
+    width: 216px !important;
+    height: calc(100vh - 64px);
+    top: 64px;
+}
+
+.sidenav-trigger {
+    display: none !important;
+}
+
+@media only screen and (max-width: 1448px) {
+    #issueInfoModal {
+        transform: translateX(105%);
+    }
+    .sidenav-trigger {
+        display: unset !important;
+    }
+}
+
+#issueInfoModalTrigger {
+    position: fixed;
+    right: 16px;
+    top: 72px;
+    transform: translateX(0%);
+}

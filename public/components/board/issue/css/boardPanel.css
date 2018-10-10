@@ -1,0 +1,41 @@
+.boardPanel {
+    /*padding: 0.5rem !important;*/
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    width: 400px;
+}
+
+#userStoryGroupPanels {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    height: calc(100vh - 116px);
+    /* 64 header + padding ~ 80px*/
+    /*     height: 68px; */
+}
+
+.datepicker {
+    z-index: 1151 !important;
+}
+
+.delteForm {}
+
+#addUSGModalTrigger {
+    top: 65px;
+    position: inherit;
+}
+
+.ui-draggable-dragging {
+    z-index: 10000 !important;
+}
+
+.handle {
+    cursor: move;
+    position: relative;
+    top: -16px;
+    left: -16px;
+}
+
+.submitIssue {
+    display: none;
+}
